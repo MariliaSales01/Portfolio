@@ -1,0 +1,23 @@
+.stack{
+    margin-top: 10%;
+}
+
+.stack h1{
+    color: var(--color-light-50);
+    margin-left: 3%;
+}
+
+.tecnologias{
+    text-align: center; 
+    display: flex; 
+    justify-content: space-around;
+}
+
+.tecnologias img{
+    width: 5%;
+    padding: 10px;
+    background-color: #D9D9D9;
+    border-radius: 50%;  
+}
+
+

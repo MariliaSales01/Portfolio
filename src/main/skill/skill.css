@@ -1,0 +1,45 @@
+h2.titulo{
+    font-size: 38px;
+    text-align: center;
+    color: var(--color-light-50);
+}
+
+.habilidades h1{
+    text-align: center;
+    font-size: 3rem;
+    color: var(--color-light-50);
+}
+
+section.habilidades{
+    padding: 50px 4%; 
+}
+
+.habilidades .flex{
+    justify-content: center;
+    gap: 60px;
+}
+
+.habilidades .habilidades-box{
+    padding: 40px;
+    border: 2px solid #000000;
+    border-radius:20px ;
+    margin-top: 45px;
+    transition: .2s;
+}
+
+.habilidades .habilidades-box:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 8px #0000005b;
+}
+
+.habilidades .habilidades-box i{
+    font-size: 70px;
+    color: var(--color-purple-100);
+}
+
+.habilidades .habilidades-box p{
+    font-size: 16px;
+    margin: 10px 0;
+    color: var(--color-black-50);
+    font-weight: var(--font-medium);
+}

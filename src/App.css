@@ -1,38 +1,110 @@
-.App {
-  text-align: center;
+:root{
+    --header-height: 3rem;
+
+    --color-light-50: #fafafc;
+
+    --color-black-50: #797984;
+    --color-black-100: #38334D;
+    --color-black-900: #000;
+
+    --color-purple-50: #9484CD;
+    --color-purple-100: #9377F7;
+    --color-purple-200: #0B0033;
+
+    --big-font-size: 3.5rem;
+    --h1-font-size: 2.25rem;
+    --h2-font-size: 1.5rem;
+    --h3-font-size: 1.25rem;
+    --normal-font-size: 1rem;
+    --small-font-size:0.875rem;
+
+    /*======== Font weight =========*/
+    --font-normal:400;
+    --font-medium:500;
+    --font-semi-bold:600;
+
+    /*======== Margenes Bottom =========*/
+    --mb-0-25: 0.25rem;
+    --mb-0-5: 0.5rem;
+    --mb-0-75: 0.75rem;
+    --mb-1: 1rem;
+    --mb-1-5: 1.5rem;
+    --mb-2: 2rem;
+    --mb-2-5: 2.5rem;
+    --mb-3: 3rem;
+
+    /*======== z index =========*/
+    --z-tooltip:10;
+    --z-fixed:100;
+    --z-modal:1000;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@media screen and (max-width: 992px) {
+    .container{
+        margin-left:var(--mb-1-5);
+        margin-right:var(--mb-1-5) ;
+    }
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@media screen and (max-width: 350px) {
+    .container{
+        margin-left: var(--mb-1);
+        margin-right: var(--mb-1);
+    }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+@media screen and (max-width:1020px){
+    .menu-desktop, .btn-contato{
+        display: none;
+    }
 
-.App-link {
-  color: #61dafb;
-}
+    .flex{
+        flex-direction: column;
+    }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+    h2.titulo{
+        font-size: 34px;
+        line-height: 30px;
+    }
+
+    .topoSite .flex{
+        flex-direction: column-reverse;
+    }
+
+    section.sobre{
+        padding: 80px 8%;
+    }
+
+    .sobre .txtSobre h2{
+        font-size: 34px;
+        line-height: 35px;
+        text-align: center;
+    }
+
+    .img-sobre {
+        text-align: center;
+    }
+    .img-sobre img{
+        width: 100%;
+    }
+
+    .btn-social{
+        text-align: center;
+    }
+    section.topoSite{
+        padding:20px 8% ;
+    }
+
+    .topoSite h1{
+        font-size: 30px;
+    }
+
+    section.topoSite .flex{
+        gap: 40px;
+    }
+
+    section.habilidades{
+        padding: 40px 8%;  
+    }
+
 }

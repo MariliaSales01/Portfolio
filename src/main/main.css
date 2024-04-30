@@ -1,0 +1,38 @@
+section.topoSite{
+    padding: 10% 10%;
+}
+
+.flex{
+    display: flex;
+}
+
+section.img-topoSite .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.topoSite h1{
+    font-size: 3rem;
+    line-height: 40px;
+    color: var(--color-light-50);
+}
+
+.topoSite h1 span{
+    color: var(--color-purple-100);
+}
+
+.topoSite .txt-topoSite p{
+    margin: 40px 0;
+    color: var(--color-black-50);
+    font-weight: var(--font-medium);
+}
+
+.img-topoSite{  
+    text-align: center;
+}
+
+.topoSite .img-topoSite img{
+    width: 80%;
+    border-radius: 100%;
+}
