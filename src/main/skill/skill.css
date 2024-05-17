@@ -1,13 +1,13 @@
 h2.titulo{
     font-size: 38px;
     text-align: center;
-    color: var(--color-light-50);
+    color: var(--color-black-900);
 }
 
 .habilidades h1{
     text-align: center;
     font-size: 3rem;
-    color: var(--color-light-50);
+    color: var(--color-black-900);
 }
 
 section.habilidades{

@@ -11,11 +11,9 @@ export default function Main(){
                             <h1>Ola me chamo <span>Marilia</span></h1>
                             <h2>Desenvolvedora FrontEnd</h2>
                             <p>orem ipsum luctus nisi interdum sapien pretium nisl auctor quam quisque, nibh feugiat mi hendrerit at dapibus habitasse congue neque, quis accumsan luctus fames est libero molestie hendrerit pretium.</p> 
-                        <div className='btn-contato'>
-                            <a href='#'>
-                                <button>Entrar em contato</button>
-                            </a>
-                        </div>
+                            <div className='btn-contato'>
+                        <input type='submit' value='Entrar em contato'></input>
+                    </div>
                         </div> 
                         <div className='img-topoSite'>
                             <img src={foto}></img>

@@ -24,7 +24,7 @@ export default function Sobre(){
 
                     <div className='btn-social'>
                         <a href='https://github.com/MariliaSales01' target="_blank"> <button><i class="bi bi-github"></i></button></a>
-                        <a href='https://www.linkedin.com/in/marilia-sales-348432242/ target="_blank"'><button><i class="bi bi-linkedin"></i></button></a>
+                        <a href='https://www.linkedin.com/in/marilia-sales-348432242/' target="_blank"><button><i class="bi bi-linkedin"></i></button></a>
                     </div>
                 </div>
 
